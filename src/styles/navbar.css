@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 1.4375rem;
+}
+
+.expanded-mobile-menu {
+  background: #000;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.expanded-mobile-menu__items {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.expanded-mobile-menu__item {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.expanded-mobile-menu__call-to-action {
+  margin-bottom: 4.125rem;
+}
+
+.navbar__hamburguer-icon {
+  color: #213547;
+}
+
+nav {
+  height: 3.125rem;
+}

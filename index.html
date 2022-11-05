@@ -15,13 +15,14 @@
   <body>
     <nav>
       <div class="navbar">
-        <div class="navbar-logo">
+        <div class="navbar__logo">
           <a href="/">
             <svg
               width="82"
               height="18"
               viewBox="0 0 82 18"
               fill="none"
+              class="bitcoin-logo"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -63,7 +64,7 @@
             </svg>
           </a>
         </div>
-        <button class="menu-icon">
+        <button class="navbar__hamburguer-icon">
           <svg
             width="28"
             height="11"
@@ -92,9 +93,9 @@
           </svg>
         </button>
       </div>
-      <div class="menu-mobile is-hidden">
+      <div class="expanded-mobile-menu is-hidden">
         <div class="navbar">
-          <div class="navbar-logo">
+          <div class="navbar__logo">
             <a href="/">
               <svg
                 width="82"
@@ -102,6 +103,7 @@
                 viewBox="0 0 82 18"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                class="bitcoin-logo"
               >
                 <path
                   d="M17.0154 10.6868C15.8879 15.2095 11.3072 17.9619 6.78394 16.8341C2.26258 15.7065 -0.48986 11.1255 0.638238 6.60313C1.76528 2.07992 6.346 -0.672788 10.8679 0.454782C15.3908 1.58235 18.143 6.16386 17.0154 10.6868Z"
@@ -142,7 +144,7 @@
               </svg>
             </a>
           </div>
-          <button class="close-menu-icon">
+          <button class="navbar__times-icon">
             <svg
               width="19"
               height="19"
@@ -157,6 +159,21 @@
             </svg>
           </button>
         </div>
+        <div class="expanded-mobile-menu__items">
+          <a href="#how-it-works" class="expanded-mobile-menu__item"
+            >How it works</a
+          >
+          <a href="#how-to-use" class="expanded-mobile-menu__item"
+            >How to use</a
+          >
+          <a href="#how-to-accept" class="expanded-mobile-menu__item"
+            >How to accept</a
+          >
+          <a href="#faq" class="expanded-mobile-menu__item">FAQ</a>
+        </div>
+        <button class="expanded-mobile-menu__call-to-action call-to-action">
+          Choose wallet
+        </button>
       </div>
     </nav>
 
