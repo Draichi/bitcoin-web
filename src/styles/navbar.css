@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .navbar__logo {
@@ -19,13 +20,14 @@
   overflow: hidden;
   justify-content: space-between;
   flex-direction: column;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .expanded-mobile-menu__items {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
+  padding: 0 1rem;
 }
 
 .expanded-mobile-menu__item {
@@ -35,7 +37,7 @@
 }
 
 .expanded-mobile-menu__call-to-action {
-  margin-bottom: 4.125rem;
+  margin: 0 0 4.125rem 1rem;
 }
 
 .navbar__hamburguer-icon {
